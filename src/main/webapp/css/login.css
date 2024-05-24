@@ -1,0 +1,106 @@
+body{
+  background-image: url('./images/pattern.png');
+  background-color: rgb(236, 243, 255);
+  background-size: 100px;
+}
+
+.bookcover{
+  height: 560px;
+  width: 980px;
+  margin:100px auto;
+  background-color: rgb(180,208,218,81);
+  border-radius:9px;
+  position:relative;
+}
+.bookdot{
+  height:534px;
+  width:954px;
+  border: dashed white 2px;
+  border-radius:9px;
+  position: absolute;
+  top:12px;
+  left:12px;
+}
+.page{
+  height:512px;
+  width:932px;
+  background-color: white;
+  border-radius: 9px;
+  position: absolute;
+  top:11px;
+  left:11px;
+
+}
+
+
+
+/*로그인 css*/
+
+form{
+	width: 400px;
+	height: 325px;
+	margin-top: 10%;
+	margin-left:28%;
+}
+input{ 	padding: 3px; /*입력창 전체*/
+		margin-left: 10%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+}
+
+input[type=submit] {
+	background: #f5b49c; 
+	color: white;
+	border: none;
+	cursor: pointer;
+	width:90px;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 25%;
+}
+
+input[type=button] {
+	background: #f5b49c; 
+	color: white;
+	border: none;
+	cursor: pointer;
+	width:90%;
+	font-size: 18px;
+	text-align: center;
+}
+a{
+	text-decoration: none; /*계정(아이디,비번)찾기 링크*/
+	color: tomato;
+	margin-top: 40px;
+}
+hr{
+	border: 1px dotted #f5b49c;
+	margin-top:13px;
+}
+
+.findpwd b>mark{
+	background-color: white;
+	width:50px;
+	color:#F59B7A;
+	font-size: 13px;
+}
+input[type="password"] {
+	margin-top:6px;
+}  
+input[type="button"]{
+	margin-top:7px;
+	width:77px;
+}
+
+
+.text-field {
+  font-size: 25px; /* 예시로 16px로 설정 */
+}
+
+.title b>mark{
+	background-color: white;
+	width:50px;
+	color:#F59B7A;
+	font-size: 25px;
+	margin-left: 40%;
+}
